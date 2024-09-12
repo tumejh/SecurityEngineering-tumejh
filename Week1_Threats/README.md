@@ -40,6 +40,10 @@ Have you been a victim of cyber crimes and do you think you could have prevented
 
 Please keep your answer concise, bullet points are acceptable, but remember to answer atleast all mentioned topics.
 
+ANSWERS:
+
+I use password managers, MFAs, keep my system up to date to ensure best antivirus possible.
+
 ---
 
 ### Task 2: Company Security Policy
@@ -66,6 +70,27 @@ These policies are to be kept quite straight-forward and easily understandable f
 You should also check [this](https://csrc.nist.rip/publications/nistpubs/800-12/800-12-html/chapter5.html) for detailed advice and explanation on for example types of policies. For example chapter 5.2.2 gives good insight on what basic components are good for issue-specific policies.
 You don't have to contain yourself to just text, you may include for example pictures and data-flow charts where beneficial.
 
+Answers:
+
+Password policy:
+
+- Every employee must have Bitlocker on their endpoint to ensure the safety if the device is stolen.
+
+- Employees also must use password manager, that creates and manages passwords, that are atleast 16 characters long, contains a-z, A-Z, 0-9, and special characters.
+
+- Passwords must be changed every 3 months, by the password manager.
+
+
+Physical access policy: 
+
+- Every emplyoyee must wear a badge when inside the offices.
+
+- Every employee must let themselves in. (No holding the door for the next person).
+
+- Guests must go trough helpdesk and not leave unsupervised in areas only designated for employees.
+
+
+
 ---
 
 ### Task 3: Threat Modelling
@@ -90,7 +115,7 @@ Recommended to check out this very tight package on threat modelling. [The priva
 
 </details>
 
-### Task 2A: [Threat Dragon](https://owasp.org/www-project-threat-dragon/) 
+### Task 3A: [Threat Dragon](https://owasp.org/www-project-threat-dragon/) 
 
 Threat Dragon is an OSS tool used to create threat model diagrams(see image below). The tool very specifically does **not** try to do too much on its own, rather gives control to the user and encourages their own thinking, as they should thoroughly analyse the system they are working on. 
 
@@ -125,7 +150,12 @@ The model is of a static student portfolio website with the following attributes
 
 </details>
 
-### Task 2B: Personal Threat Model
+
+ANSWER:
+ DONE, PDF in the folder. 
+
+
+### Task 3B: Personal Threat Model
 
 A threat model is a tool used widely in security, it can be used for example to identify sensitive or vulnerable data or systems. Its goal is to identify potential vulnerabilities and a likely impact of a security breach, helping companies take proper measures to mitigate and / or prevent these. A threat model can also help companies assess and prioritize its security efforts by identifying which assets are the most critical and which threats are the most probable. Overall, a threat model is a vital part of a comprehensive cyber security strategy helping organizations manage risks and breaches, and how to allocate defense budget.
 
@@ -196,6 +226,13 @@ Save the scan with ```CTRL + S``` and take a screenshot of this topology screen 
 3. Did nmap find any vulnerabilities with the scripts?
 4. Screenshot of the topology of your network. You can redact device information if you want.
 
+Answers:
+
+No, I didn't find devices that i didnt know about.
+No there wasnt open ports.
+It didnt find any vulnerabilities.
+Screenshot is in the folder.
+
 ### Task 4B: Account Security
 
 This part of task 4 is to check yourself with haveibeenpwned. This should let you know if your account details have been leaked and what types of information was included.
@@ -207,5 +244,12 @@ This part of task 4 is to check yourself with haveibeenpwned. This should let yo
 2. Screenshot of haveibeenpwned search, you can redact information if you want.
 3. Did you change passwords and/or email + password combos, that were leaked, if not, do it.
 
+Answers:
+They havent got leaked.
+Screenshot in the folder. I wasnt pwned though.
+Nothing was leaked. 
+
 ### Feedback
 Be sure to give feedback on these tasks. Do you feel these to be the kind of skills you might need or want?
+
+I feel like more practical stuff could be included. 
