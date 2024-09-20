@@ -38,6 +38,19 @@ Look at the following snippets from a browsers address bar:
     - If you were to own the domain **ouspg.org** and would be running your crypto banking application at **bank.ouspg.org**, what domains could you monitor for warning signs of possible phishing attempts against your customers?
 
 
+TASK 1A Answers: 
+ - "Not Secure" means that the site is using HTTP and not HTTPS. The risk is that HTTP Doesn't encrypt client-to-server communications, which means that the data is sent in plain text. This means that the data stream can be intercepted and accessed by virtually anyone.
+
+ - 2nd site is using HTTPS, so it shows up as secured. 
+
+ - There are many ways, one is common sense. For example if you are suddenly redirected to a loginsite of, for example, facebook or microsoft, there should be some alarms going off in your head. Other is using Open source tools like URLScanner or Virustotal, which can give you information about the site and you can check its reputation if its negative or positive.
+
+ - Typosquatting in this means making your phishing site in a way, that it relies on victims making typos. Like on danskebanks case, its fairly easy to typo danskebankk, just by doubleclicking k. 
+
+ - UDRP(Uniform Domain-Name Dispute-Resolution Policy) Basically means that danskbank can get that fake url to shut down, since it is clearly malicious. Broadly you can have urls shut down that violate your trademark.
+
+ - Some examples for monitoring: bank.ospg.org | bank.ouspg.com | bank.ouspg.fi | bankouspg.org |
+
 #### Task 1B: Certificates
 
 You have probably seen the following kind of warning when browsing the internet:
@@ -53,6 +66,20 @@ You have probably seen the following kind of warning when browsing the internet:
 - How do browsers use certificates for ensuring browsing security?
     - What does the warning in the picture above mean?
 
+
+
+ANSWERS:
+- Digital certificates are yo verify the identity and integrity of websites or organizations on the internet, kinda like an ID.
+    - They ensure the legitimacy and security of the online payments.
+    - VPNs can use them to secure connections. 
+- TLS mitigates MitM attacks by encrypting the communications between client and server, making it impossible for TA to intercept the data. With encryption it also mitigates evasedropping and data tampering, since it makes the data virtually untouchable during transit.
+- Browsers use certificates by validating website identity and estabilishing secure connections.
+- The picture can mean for example; Expired certificate, A not trusted certificate, mismatch between the domain and certification and revoked certificate. 
+
+
+
+
+
 **Certificate Authorities**
 
 Read the following entries on Certificate Authorities and Certificate Transparency and answer questions:
@@ -66,6 +93,13 @@ https://www.ecb.europa.eu/pub/pubbydate/html/index.en.html
 
 - Why would it be bad if a trusted certificate authority was compromised?
 - Why is certificate transparency important?
+
+
+ANSWERS:
+
+- If a trusted CA was compromised, it would be very dangerous because TA's could verify the authenticity of malicious websites on their own accord. 
+
+- Transparency is important, because it addresses the issue of unauthorized or fraudulent certificates. It ensures that all issued certificates are logged in public, auditable logs. This helps people to indetifiy mis-issued of fraudulent cerificates quickly, which can mitigate a lot of harm. 
 
 ---
 
